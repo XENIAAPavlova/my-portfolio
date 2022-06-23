@@ -1,2 +1,32 @@
 /* font-family: 'Nunito', sans-serif; */
 
+:root {
+  --main-color: #335384;
+  --main-color-second: #658abf;
+  --body-color: #ffff;
+  --alt-light-color: #eff0f2;
+  --alt-color: #5ba7d1;
+  --text-color: #444440;
+  --alt-text-color: #335384;
+  --input-color: #5ba7d1;
+  --card-color: #eff0f2;
+
+  --body-font: "Nunito", sans-serif;
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+/* @media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }; */
