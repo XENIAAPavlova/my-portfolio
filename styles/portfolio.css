@@ -36,7 +36,7 @@ a {
 
 .home-introduction {
   background-color: var(--body-color);
-  padding: 100px 20px;
+  padding: 85px 20px;
 }
 
 .home-introduction h1 {
@@ -61,10 +61,15 @@ a.btn {
   font-family: "Nunito", sans-serif;
   font-size: var(--h3-font-size);
   font-weight: 500;
+  padding: 0%;
 }
 
 .img-fluid {
   max-width: 90%;
   height: auto;
   padding-top: 50px;
+}
+
+.home-scroll-down {
+  color: #335384;
 }
