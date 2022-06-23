@@ -13,9 +13,10 @@
 
   --body-font: "Nunito", sans-serif;
   --big-font-size: 2rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1.125rem;
+  --h1-font-size: 45px;
+  --h2-font-size: 24px;
+  --h3-font-size: 22px;
+  --btn-size: 22px;
 }
 
 body {
@@ -25,8 +26,45 @@ body {
   color: var(--text-color);
 }
 
-/* @media (max-width: 900px) {
-  h1 {
-    font-size: 18px;
-    text-align: center;
-  }; */
+a {
+  text-decoration: none;
+}
+
+.home-container {
+  padding: 100px 20px;
+}
+
+.home-introduction {
+  background-color: var(--body-color);
+  padding: 100px 20px;
+}
+
+.home-introduction h1 {
+  color: #335384;
+  font-size: var(--h1-font-size);
+}
+
+.home-introduction h3 {
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.home-introduction p {
+  font-size: var(--h2-font-size);
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+a.btn {
+  color: var(--main-color);
+  font-family: "Nunito", sans-serif;
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+}
+
+.img-fluid {
+  max-width: 90%;
+  height: auto;
+  padding-top: 50px;
+}
