@@ -5,18 +5,20 @@
   --main-color-second: #658abf;
   --body-color: #ffff;
   --alt-light-color: #eff0f2;
-  --alt-color: #5ba7d1;
   --text-color: #444440;
   --alt-text-color: #335384;
   --input-color: #5ba7d1;
   --card-color: #eff0f2;
+  --social-links-color: #658abf;
 
   --body-font: "Nunito", sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 45px;
   --h2-font-size: 24px;
   --h3-font-size: 22px;
+  --details-font-size: 20px;
   --btn-size: 22px;
+  --social-links-size: 30px;
 }
 
 body {
@@ -68,6 +70,11 @@ a.btn {
   padding: 0%;
 }
 
+a.btn:hover {
+  color: #658abf;
+  border-radius: 6px;
+}
+
 .img-fluid {
   max-width: 90%;
   height: auto;
@@ -77,4 +84,28 @@ a.btn {
 .home-scroll-down {
   color: #335384;
   font-family: var(--body-font);
+  font-size: var(--details-font-size);
+}
+
+.projects-description {
+  font-size: var(--details-font-size);
+  font-family: var(--body-font);
+  font-weight: 250;
+  color: var(--text-color);
+}
+
+.project-name {
+  font-size: var(--h3-font-size);
+  font-family: var(--body-font);
+  color: var(--alt-text-color);
+  font-weight: 500;
+}
+
+.social-link {
+  color: var(--social-links-color);
+  font-size: var(--social-links-size);
+}
+
+.social-link:hover {
+  color: var(--main-color);
 }
