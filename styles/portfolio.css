@@ -87,6 +87,12 @@ a.btn:hover {
   font-size: var(--details-font-size);
 }
 
+.skills-scroll-down {
+  color: #335384;
+  font-family: var(--body-font);
+  font-size: var(--details-font-size);
+}
+
 .projects-description {
   font-size: var(--details-font-size);
   font-family: var(--body-font);
@@ -108,4 +114,31 @@ a.btn:hover {
 
 .social-link:hover {
   color: var(--main-color);
+}
+
+.skills-html,
+.skills-api,
+.skills-github,
+.skills-bootstrap,
+.skills-hosting,
+.skills-react,
+.skills-responsive, .skills-flexbox {
+  height: 50px;
+  width: 50px;
+}
+
+.skills-vs {
+  height: 40px;
+  width: 40px;
+}
+
+.skills {
+  height: 50px;
+  width: 35px;
+}
+
+.block {
+  font-family: var(--body-font);
+  font-size: 12px;
+  font-weight: 500;
 }
