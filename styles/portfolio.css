@@ -116,13 +116,22 @@ a.btn:hover {
   color: var(--main-color);
 }
 
+.social-icon {
+  color: var(--social-links-color);
+  font-size: var(--social-links-size);
+}
+.social-icon:hover {
+  color: var(--main-color);
+}
+
 .skills-html,
 .skills-api,
 .skills-github,
 .skills-bootstrap,
 .skills-hosting,
 .skills-react,
-.skills-responsive, .skills-flexbox {
+.skills-responsive,
+.skills-flexbox {
   height: 50px;
   width: 50px;
 }
@@ -141,4 +150,32 @@ a.btn:hover {
   font-family: var(--body-font);
   font-size: 12px;
   font-weight: 500;
+}
+
+.contact-introduction h1 {
+  color: var(--main-color);
+  font-size: 40px;
+  font-family: var(--body-font);
+}
+
+.contact-introduction p {
+  color: var(--main-color);
+  font-size: 20px;
+  font-family: var(--body-font);
+}
+
+.contact-container {
+  margin-top: 100px;
+}
+
+.open-source {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.open-source a {
+  color: var(--input-color);
+  text-decoration: none;
 }
