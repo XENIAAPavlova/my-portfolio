@@ -82,6 +82,7 @@ a.btn:hover {
 }
 
 .home-scroll-down {
+  margin-top: 100px;
   color: #335384;
   font-family: var(--body-font);
   font-size: var(--details-font-size);
