@@ -32,8 +32,12 @@ a {
   text-decoration: none;
 }
 
+.links-container {
+  padding: 20px 20px;
+}
+
 .home-container {
-  padding: 100px 20px;
+  padding: 20px 20px;
 }
 
 .home-introduction {
@@ -101,6 +105,10 @@ a.btn:hover {
   color: var(--text-color);
 }
 
+.skills-container {
+  padding: 50px 50px;
+}
+
 .project-name {
   font-size: var(--h3-font-size);
   font-family: var(--body-font);
@@ -166,7 +174,8 @@ a.btn:hover {
 }
 
 .contact-container {
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .open-source {
@@ -179,4 +188,17 @@ a.btn:hover {
 .open-source a {
   color: var(--input-color);
   text-decoration: none;
+}
+
+.btn-back-to-top {
+  size: 10px;
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  border-radius: 100%;
+  background: var(--social-links-color);
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
 }
