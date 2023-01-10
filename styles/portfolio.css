@@ -184,7 +184,7 @@ p {
   font-family: var(--body-font);
   color: var(--main-color);
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .open-source a {
