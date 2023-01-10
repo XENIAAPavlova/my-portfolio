@@ -205,8 +205,9 @@ p {
   padding: 1rem;
   border: none;
   cursor: pointer;
-  /* opacity: 100%; */
+  display: none;
 }
+/* opacity: 100%; */
 
 .fa-arrow-up:before {
   color: #eff0f2;
